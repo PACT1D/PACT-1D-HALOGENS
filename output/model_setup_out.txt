@@ -1,0 +1,19 @@
+#options for model run
+run_chem  	 1
+run_vert_diff  	 1
+addemissions  	 1
+initialize_surface_concentrations  	 0
+add_NO_soil_emissions  	 0
+add_surface_source_HONO  	 0
+add_surface_source_Cl_Br  	 1
+add_surface_source_Iodine  	 0
+xhet    	 1
+xIod    	 0
+xCl    	 1
+xBr    	 1
+dt_chem  	 20
+dt_kpp  	 10
+n_step_diff  	 500
+Write Repetition  	 1
+output_file_comment  	 'output_file_comment - Model start time: 18 March 2009 - 00:00 AKST' 
+output_file_created_by 	 'output_file_created_by - Shaddy AHMED - shaddy.ahmed@univ-grenoble-alpes.fr' 
