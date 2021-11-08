@@ -1,0 +1,23 @@
+#please start comment lines with the # character to make the model work....
+##non reactive uptake to the ground - probability of loss based on laminar diffusive layer in contact with a surface 
+##Interactive emissions based on loss rates (deposition rates) are caluated within the model)
+##column 1 - species,   column 2 uptake probability (alpha)
+##species           alpha         
+HNO3                0.1            
+HNO4                0.1          
+HO                  0.1           
+HO2                 0.02           
+HONO                1.0E-3        
+N2O5                0.4         
+NO2                 5.0E-5        
+NO3                 2.0E-3        
+O3                  4.0E-6  
+NO3Aer              0.1  
+HCl                 0.1
+HBr                 0.1
+HOBr                2.0E-3
+HOCl                0.1
+BrONO2              0.03
+ClONO2              0.1
+Cl2                 5.0E-5
+BrCl                1.0E-3
