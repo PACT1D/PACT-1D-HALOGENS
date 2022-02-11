@@ -13,7 +13,7 @@
 %        R. Sander, Max-Planck Institute for Chemistry, Mainz, Germany
 %                                                                  
 % File                 : mech.map                                  
-% Time                 : Wed Oct 13 10:00:50 2021                  
+% Time                 : Mon Jan 24 15:35:18 2022                  
 % Working directory    : /home/sahmed/mechanism                    
 % Equation file        : mech.kpp                                  
 % Output root filename : mech                                      
@@ -40,7 +40,7 @@ REORDER  - ON
 % NFIX - Number of Fixed species                                   
  global NFIX; NFIX = 6; 
 % NREACT - Number of reactions                                     
- global NREACT; NREACT = 511; 
+ global NREACT; NREACT = 513; 
 % NVARST - Starting of variables in conc. vect.                    
  global NVARST; NVARST = 1; 
 % NFIXST - Starting of fixed in conc. vect.                        
@@ -49,35 +49,35 @@ REORDER  - ON
 ### Species -------------------------------------------
 
 Variable species
-  1 = DUMMY (r)  57 = XYO2 (r)  113 = PER1 (r)  
-  2 = NOCl (r)   58 = PPN (r)   114 = ADDC (r)  
-  3 = BrNO (r)   59 = MPAN (r)  115 = MCTP (r)  
-  4 = OBrO (r)   60 = ClNO2 (r) 116 = GLY (r)   
-  5 = CH3Cl (r)  61 = ETH (r)   117 = HC8P (r)  
-  6 = CO2 (n)    62 = HC3 (r)   118 = HCl (r)   
-  7 = SULF (n)   63 = EOH (r)   119 = XYLP (r)  
-  8 = ClONO (n)  64 = TOL (r)   120 = CSL (r)   
-  9 = CH3 (n)    65 = OP1 (r)   121 = LIMP (r)  
- 10 = HCO (n)    66 = PHEN (r)  122 = UALP (r)  
+  1 = DUMMY (r)  57 = PPN (r)   113 = PER1 (r)  
+  2 = NOCl (r)   58 = MPAN (r)  114 = ADDC (r)  
+  3 = BrNO (r)   59 = ClNO2 (r) 115 = MCTP (r)  
+  4 = OBrO (r)   60 = ETH (r)   116 = GLY (r)   
+  5 = CH3Cl (r)  61 = HC3 (r)   117 = HC8P (r)  
+  6 = CO2 (n)    62 = EOH (r)   118 = HCl (r)   
+  7 = SULF (n)   63 = TOL (r)   119 = XYLP (r)  
+  8 = ClONO (n)  64 = OP1 (r)   120 = CSL (r)   
+  9 = CH3 (n)    65 = PHEN (r)  121 = LIMP (r)  
+ 10 = HCO (n)    66 = Br2 (r)   122 = UALP (r)  
  11 = ClOO (n)   67 = ISON (r)  123 = MVKP (r)  
- 12 = CCl3 (n)   68 = ORA1 (r)  124 = DCB3 (r)  
- 13 = C2H5O (n)  69 = CHO (r)   125 = MGLY (r)  
+ 12 = CCl3 (n)   68 = ORA1 (r)  124 = MGLY (r)  
+ 13 = C2H5O (n)  69 = CHO (r)   125 = DCB3 (r)  
  14 = C2H4O2 (n) 70 = PAA (r)   126 = MACR (r)  
- 15 = CH2CCl3 (n) 71 = HOBr (r)  127 = ISOP (r)  
- 16 = CH3SCH2 (n) 72 = HBr (r)   128 = MACP (r)  
- 17 = CH2Br (n)  73 = ClETEP (r)129 = MOH (r)   
+ 15 = CH2CCl3 (n) 71 = HBr (r)   127 = ISOP (r)  
+ 16 = CH3SCH2 (n) 72 = ClETEP (r)128 = MACP (r)  
+ 17 = CH2Br (n)  73 = BrCl (r)  129 = MOH (r)   
  18 = BrOO (n)   74 = API (r)   130 = BrAer (r) 
  19 = CH32SBr (n) 75 = PAN (r)   131 = OLNN (r)  
  20 = CH3SOCH3 (n) 76 = MCTO (r)  132 = APIP (r)  
- 21 = CHBr2 (n)  77 = BrCl (r)  133 = ONIT (r)  
- 22 = CHBrCl (n) 78 = H2O2 (r)  134 = OLTP (r)  
- 23 = H (n)      79 = BAL1 (r)  135 = UALD (r)  
- 24 = CBr3 (n)   80 = N2O5 (r)  136 = BrO (r)   
- 25 = CH3CCl2 (n) 81 = OClO (r)  137 = ClO (r)   
- 26 = CH2Cl (n)  82 = Cl2 (r)   138 = Br (r)    
- 27 = CHCl3 (r)  83 = BrONO2 (r)139 = RCO3 (r)  
- 28 = SO2 (r)    84 = LIM (r)   140 = DCB2 (r)  
- 29 = CH3CCl3 (r) 85 = BALP (r)  141 = OP2 (r)   
+ 21 = CHBr2 (n)  77 = H2O2 (r)  133 = ONIT (r)  
+ 22 = CHBrCl (n) 78 = BAL1 (r)  134 = OLTP (r)  
+ 23 = H (n)      79 = OClO (r)  135 = UALD (r)  
+ 24 = CBr3 (n)   80 = Cl2 (r)   136 = RCO3 (r)  
+ 25 = CH3CCl2 (n) 81 = N2O5 (r)  137 = ClO (r)   
+ 26 = CH2Cl (n)  82 = HOBr (r)  138 = BrO (r)   
+ 27 = CHCl3 (r)  83 = LIM (r)   139 = Br (r)    
+ 28 = SO2 (r)    84 = BALP (r)  140 = DCB2 (r)  
+ 29 = CH3CCl3 (r) 85 = BrONO2 (r)141 = OP2 (r)   
  30 = ISHP (r)   86 = ISO (r)   142 = HC5P (r)  
  31 = C2H5O2 (r) 87 = CO (r)    143 = OLI (r)   
  32 = CCl4 (r)   88 = EPX (r)   144 = OLIP (r)  
@@ -87,24 +87,24 @@ Variable species
  36 = NO3Aer (r) 92 = TLP1 (r)  148 = MEKP (r)  
  37 = HC8 (r)    93 = XYL1 (r)  149 = XO2 (r)   
  38 = ACE (r)    94 = OLT (r)   150 = ACD (r)   
- 39 = HC5 (r)    95 = MEK (r)   151 = O3P (r)   
- 40 = MAHP (r)   96 = ACT (r)   152 = HCHO (r)  
- 41 = NALD (r)   97 = HNO3 (r)  153 = ClAer (r) 
- 42 = O1D (r)    98 = HKET (r)  154 = O3 (r)    
- 43 = BrNO2 (r)  99 = ROH (r)   155 = HO2 (r)   
- 44 = CH3Br (r) 100 = BEN (r)   156 = ALD (r)   
- 45 = ETEG (r)  101 = ORAP (r)  157 = KETP (r)  
- 46 = HONO (r)  102 = HOCl (r)  158 = ACO3 (r)  
- 47 = HNO4 (r)  103 = KET (r)   159 = HC3P (r)  
+ 39 = HC5 (r)    95 = MEK (r)   151 = HCHO (r)  
+ 40 = MAHP (r)   96 = ACT (r)   152 = ClAer (r) 
+ 41 = NALD (r)   97 = HNO3 (r)  153 = O3P (r)   
+ 42 = O1D (r)    98 = HKET (r)  154 = NO (r)    
+ 43 = CH3Br (r)  99 = ROH (r)   155 = O3 (r)    
+ 44 = ETEG (r)  100 = BEN (r)   156 = MO2 (r)   
+ 45 = HONO (r)  101 = ORAP (r)  157 = KETP (r)  
+ 46 = BrNO2 (r) 102 = HOCl (r)  158 = ALD (r)   
+ 47 = HNO4 (r)  103 = KET (r)   159 = HO (r)    
  48 = BAL2 (r)  104 = XYOP (r)  160 = ORA2 (r)  
- 49 = TR2 (r)   105 = ADCN (r)  161 = NO2 (r)   
- 50 = XYO (r)   106 = BALD (r)  162 = NO3 (r)   
- 51 = XYM (r)   107 = MVK (r)   163 = HO (r)    
- 52 = XYP (r)   108 = ETEP (r)  164 = NO (r)    
- 53 = Br2 (r)   109 = BENP (r)  165 = MO2 (r)   
- 54 = CH3SCH3 (r)110 = PER2 (r)  166 = ETHP (r)  
- 55 = MCT (r)   111 = MCP (r)   167 = Cl (r)    
- 56 = XY2 (r)   112 = TOLP (r)  
+ 49 = TR2 (r)   105 = ADCN (r)  161 = ETHP (r)  
+ 50 = XYO (r)   106 = BALD (r)  162 = NO2 (r)   
+ 51 = XYM (r)   107 = MVK (r)   163 = NO3 (r)   
+ 52 = XYP (r)   108 = ETEP (r)  164 = HO2 (r)   
+ 53 = CH3SCH3 (r)109 = BENP (r)  165 = HC3P (r)  
+ 54 = MCT (r)   110 = PER2 (r)  166 = ACO3 (r)  
+ 55 = XY2 (r)   111 = MCP (r)   167 = Cl (r)    
+ 56 = XYO2 (r)  112 = TOLP (r)  
 
 Fixed species
   1 = O2 (r)      4 = CH4 (r)   

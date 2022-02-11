@@ -12,7 +12,7 @@
 %     Valeriu Damian & Adrian Sandu                                
 %                                                                  
 % File                 : mech_Initialize.m                         
-% Time                 : Tue Mar 22 21:21:52 4461504               
+% Time                 : Mon Dec  7 03:14:08 4461648               
 % Working directory    : /home/sahmed/mechanism                    
 % Equation file        : mech.kpp                                  
 % Output root filename : mech                                      

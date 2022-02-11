@@ -13,7 +13,7 @@
 %        R. Sander, Max-Planck Institute for Chemistry, Mainz, Germany
 %                                                                  
 % File                 : mech_Parameters.m                         
-% Time                 : Wed Oct 13 10:00:50 2021                  
+% Time                 : Mon Jan 24 15:35:18 2022                  
 % Working directory    : /home/sahmed/mechanism                    
 % Equation file        : mech.kpp                                  
 % Output root filename : mech                                      
@@ -32,15 +32,15 @@
 % NFIX - Number of Fixed species                                   
  global NFIX; NFIX = 6; 
 % NREACT - Number of reactions                                     
- global NREACT; NREACT = 511; 
+ global NREACT; NREACT = 513; 
 % NVARST - Starting of variables in conc. vect.                    
  global NVARST; NVARST = 1; 
 % NFIXST - Starting of fixed in conc. vect.                        
  global NFIXST; NFIXST = 168; 
 % NONZERO - Number of nonzero entries in Jacobian                  
- global NONZERO; NONZERO = 1993; 
+ global NONZERO; NONZERO = 1996; 
 % LU_NONZERO - Number of nonzero entries in LU factoriz. of Jacobian
- global LU_NONZERO; LU_NONZERO = 2503; 
+ global LU_NONZERO; LU_NONZERO = 2511; 
 % CNVAR - (NVAR+1) Number of elements in compressed row format     
  global CNVAR; CNVAR = 168; 
 % NLOOKAT - Number of species to look at                           
@@ -95,49 +95,49 @@
  global ind_MAHP; ind_MAHP = 40; 
  global ind_NALD; ind_NALD = 41; 
  global ind_O1D; ind_O1D = 42; 
- global ind_BrNO2; ind_BrNO2 = 43; 
- global ind_CH3Br; ind_CH3Br = 44; 
- global ind_ETEG; ind_ETEG = 45; 
- global ind_HONO; ind_HONO = 46; 
+ global ind_CH3Br; ind_CH3Br = 43; 
+ global ind_ETEG; ind_ETEG = 44; 
+ global ind_HONO; ind_HONO = 45; 
+ global ind_BrNO2; ind_BrNO2 = 46; 
  global ind_HNO4; ind_HNO4 = 47; 
  global ind_BAL2; ind_BAL2 = 48; 
  global ind_TR2; ind_TR2 = 49; 
  global ind_XYO; ind_XYO = 50; 
  global ind_XYM; ind_XYM = 51; 
  global ind_XYP; ind_XYP = 52; 
- global ind_Br2; ind_Br2 = 53; 
- global ind_CH3SCH3; ind_CH3SCH3 = 54; 
- global ind_MCT; ind_MCT = 55; 
- global ind_XY2; ind_XY2 = 56; 
- global ind_XYO2; ind_XYO2 = 57; 
- global ind_PPN; ind_PPN = 58; 
- global ind_MPAN; ind_MPAN = 59; 
- global ind_ClNO2; ind_ClNO2 = 60; 
- global ind_ETH; ind_ETH = 61; 
- global ind_HC3; ind_HC3 = 62; 
- global ind_EOH; ind_EOH = 63; 
- global ind_TOL; ind_TOL = 64; 
- global ind_OP1; ind_OP1 = 65; 
- global ind_PHEN; ind_PHEN = 66; 
+ global ind_CH3SCH3; ind_CH3SCH3 = 53; 
+ global ind_MCT; ind_MCT = 54; 
+ global ind_XY2; ind_XY2 = 55; 
+ global ind_XYO2; ind_XYO2 = 56; 
+ global ind_PPN; ind_PPN = 57; 
+ global ind_MPAN; ind_MPAN = 58; 
+ global ind_ClNO2; ind_ClNO2 = 59; 
+ global ind_ETH; ind_ETH = 60; 
+ global ind_HC3; ind_HC3 = 61; 
+ global ind_EOH; ind_EOH = 62; 
+ global ind_TOL; ind_TOL = 63; 
+ global ind_OP1; ind_OP1 = 64; 
+ global ind_PHEN; ind_PHEN = 65; 
+ global ind_Br2; ind_Br2 = 66; 
  global ind_ISON; ind_ISON = 67; 
  global ind_ORA1; ind_ORA1 = 68; 
  global ind_CHO; ind_CHO = 69; 
  global ind_PAA; ind_PAA = 70; 
- global ind_HOBr; ind_HOBr = 71; 
- global ind_HBr; ind_HBr = 72; 
- global ind_ClETEP; ind_ClETEP = 73; 
+ global ind_HBr; ind_HBr = 71; 
+ global ind_ClETEP; ind_ClETEP = 72; 
+ global ind_BrCl; ind_BrCl = 73; 
  global ind_API; ind_API = 74; 
  global ind_PAN; ind_PAN = 75; 
  global ind_MCTO; ind_MCTO = 76; 
- global ind_BrCl; ind_BrCl = 77; 
- global ind_H2O2; ind_H2O2 = 78; 
- global ind_BAL1; ind_BAL1 = 79; 
- global ind_N2O5; ind_N2O5 = 80; 
- global ind_OClO; ind_OClO = 81; 
- global ind_Cl2; ind_Cl2 = 82; 
- global ind_BrONO2; ind_BrONO2 = 83; 
- global ind_LIM; ind_LIM = 84; 
- global ind_BALP; ind_BALP = 85; 
+ global ind_H2O2; ind_H2O2 = 77; 
+ global ind_BAL1; ind_BAL1 = 78; 
+ global ind_OClO; ind_OClO = 79; 
+ global ind_Cl2; ind_Cl2 = 80; 
+ global ind_N2O5; ind_N2O5 = 81; 
+ global ind_HOBr; ind_HOBr = 82; 
+ global ind_LIM; ind_LIM = 83; 
+ global ind_BALP; ind_BALP = 84; 
+ global ind_BrONO2; ind_BrONO2 = 85; 
  global ind_ISO; ind_ISO = 86; 
  global ind_CO; ind_CO = 87; 
  global ind_EPX; ind_EPX = 88; 
@@ -176,8 +176,8 @@
  global ind_LIMP; ind_LIMP = 121; 
  global ind_UALP; ind_UALP = 122; 
  global ind_MVKP; ind_MVKP = 123; 
- global ind_DCB3; ind_DCB3 = 124; 
- global ind_MGLY; ind_MGLY = 125; 
+ global ind_MGLY; ind_MGLY = 124; 
+ global ind_DCB3; ind_DCB3 = 125; 
  global ind_MACR; ind_MACR = 126; 
  global ind_ISOP; ind_ISOP = 127; 
  global ind_MACP; ind_MACP = 128; 
@@ -188,10 +188,10 @@
  global ind_ONIT; ind_ONIT = 133; 
  global ind_OLTP; ind_OLTP = 134; 
  global ind_UALD; ind_UALD = 135; 
- global ind_BrO; ind_BrO = 136; 
+ global ind_RCO3; ind_RCO3 = 136; 
  global ind_ClO; ind_ClO = 137; 
- global ind_Br; ind_Br = 138; 
- global ind_RCO3; ind_RCO3 = 139; 
+ global ind_BrO; ind_BrO = 138; 
+ global ind_Br; ind_Br = 139; 
  global ind_DCB2; ind_DCB2 = 140; 
  global ind_OP2; ind_OP2 = 141; 
  global ind_HC5P; ind_HC5P = 142; 
@@ -203,22 +203,22 @@
  global ind_MEKP; ind_MEKP = 148; 
  global ind_XO2; ind_XO2 = 149; 
  global ind_ACD; ind_ACD = 150; 
- global ind_O3P; ind_O3P = 151; 
- global ind_HCHO; ind_HCHO = 152; 
- global ind_ClAer; ind_ClAer = 153; 
- global ind_O3; ind_O3 = 154; 
- global ind_HO2; ind_HO2 = 155; 
- global ind_ALD; ind_ALD = 156; 
+ global ind_HCHO; ind_HCHO = 151; 
+ global ind_ClAer; ind_ClAer = 152; 
+ global ind_O3P; ind_O3P = 153; 
+ global ind_NO; ind_NO = 154; 
+ global ind_O3; ind_O3 = 155; 
+ global ind_MO2; ind_MO2 = 156; 
  global ind_KETP; ind_KETP = 157; 
- global ind_ACO3; ind_ACO3 = 158; 
- global ind_HC3P; ind_HC3P = 159; 
+ global ind_ALD; ind_ALD = 158; 
+ global ind_HO; ind_HO = 159; 
  global ind_ORA2; ind_ORA2 = 160; 
- global ind_NO2; ind_NO2 = 161; 
- global ind_NO3; ind_NO3 = 162; 
- global ind_HO; ind_HO = 163; 
- global ind_NO; ind_NO = 164; 
- global ind_MO2; ind_MO2 = 165; 
- global ind_ETHP; ind_ETHP = 166; 
+ global ind_ETHP; ind_ETHP = 161; 
+ global ind_NO2; ind_NO2 = 162; 
+ global ind_NO3; ind_NO3 = 163; 
+ global ind_HO2; ind_HO2 = 164; 
+ global ind_HC3P; ind_HC3P = 165; 
+ global ind_ACO3; ind_ACO3 = 166; 
  global ind_Cl; ind_Cl = 167; 
 
 % Index declaration for fixed species in C                         
